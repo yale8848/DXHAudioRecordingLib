@@ -36,8 +36,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
-def siteUrl = 'https://github.com/yale8848/slipbackactivitylib'      // 项目的主页
-def gitUrl = 'https://github.com/yale8848/slipbackactivitylib.git'   // Git仓库的url
+def siteUrl = 'https://github.com/yale8848/DXHAudioRecordingLib'      // 项目的主页
+def gitUrl = 'https://github.com/yale8848/DXHAudioRecordingLib.git'   // Git仓库的url
 
 group = "com.daoxuehao.android"
 install {
@@ -45,7 +45,7 @@ install {
         pom {
             project {
                 packaging 'aar'
-                name 'SlipBackActivity'    //项目描述
+                name 'DXHAudioRecordingLib'    //项目描述
                 url siteUrl
                 licenses {
                     license {
@@ -95,7 +95,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"
-        name = "SlipBackActivityLib"    //发布到JCenter上的项目名字
+        name = "DXHAudioRecordingLib"    //发布到JCenter上的项目名字
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
